@@ -1,0 +1,11 @@
+<div class="py-4 px-6 border rounded flex items-center justify-between flex-col mb-2">
+
+  <img [src]="product.image" [alt]="product.title" class="w-1/6">
+  <h2 class="mb-2 text-md text-center">{{ product.title }}</h2>
+  <p>Price: <span class="font-bold">{{ product.price | currency: "RUB "}}</span></p>
+
+
+  <p>{{ product.description }}</p>
+  <p>Rate<span>{{ product.rating.rate }}</span></p>
+
+</div>
