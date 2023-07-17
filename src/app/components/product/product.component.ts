@@ -3,7 +3,7 @@ import {IProduct} from "../../models/product";
 
 @Component({
   selector: 'app-product',
-  templateUrl: "./product.component.html",
+  templateUrl: "./product.component.html"
 })
 
 export class ProductComponent {
